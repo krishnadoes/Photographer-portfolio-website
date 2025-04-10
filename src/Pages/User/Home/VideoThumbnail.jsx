@@ -32,12 +32,11 @@ export default function VideoThumbnail() {
             height: "h-96 sm:h-72 lg:h-96"
         }
     ]
-    return (<><Link to="/films">
-        <h1 className="inline-block lg:mb-8 sm:mb-4 sm:w-1/2 sm:text-center lg:text-left px-4 py-0 lg:text-desktopHeadlineMedium transition-all delay-700 duration-300 lg:hover:bg-red-500 lg:hover: rounded-full sm:py-4 sm:text-desktopBodyLarge tracking-wider transform hover:scale-105">
-            Films
+    return (<>
+<h1 className="inline-block lg:mb-8 sm:mb-4 sm:w-1/3 sm:text-center lg:text-left px-4 py-0 lg:text-desktopHeadlineMedium transition-all delay-700 duration-300 lg:hover:bg-red-500 lg:hover: rounded-full sm:py-4 sm:text-desktopBodyLarge tracking-wider transform hover:scale-50">            Films
             <hr className='lg:hidden mx-auto border-[1px] w-8 border-red-300' />
         </h1>
-    </Link>
+    
     <div className="w-full py-10 my-0">
         <div className="flex flex-col md:flex-row gap-6 lg:justify-center sm:justify-start px-0 sm:overflow-x-auto scrollbar-none sm:pl-2">
             {/* Video Container */}
